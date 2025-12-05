@@ -1,0 +1,14 @@
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\bin\Debug\net8.0\NewCarRental.Data.deps.json
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\bin\Debug\net8.0\NewCarRental.Data.runtimeconfig.json
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\bin\Debug\net8.0\NewCarRental.Data.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\bin\Debug\net8.0\NewCarRental.Data.pdb
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\NewCarRental.Data.csproj.AssemblyReference.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\NewCarRental.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\NewCarRental.Data.AssemblyInfoInputs.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\NewCarRental.Data.AssemblyInfo.cs
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\NewCarRental.Data.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\NewCarRental.Data.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\refint\NewCarRental.Data.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\NewCarRental.Data.pdb
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\NewCarRental.Data.genruntimeconfig.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Data\obj\Debug\net8.0\ref\NewCarRental.Data.dll

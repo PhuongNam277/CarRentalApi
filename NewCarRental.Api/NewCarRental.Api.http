@@ -1,0 +1,10 @@
+@rootURL = http://localhost:7070
+
+GET {{NewCarRental.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{rootURL}}/api/categories/
+Accept: application/json
+
+

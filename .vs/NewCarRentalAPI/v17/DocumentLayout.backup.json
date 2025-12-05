@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{447EC4BD-8495-455F-9E97-2A18A87DBAD5}|NewCarRental.Api\\NewCarRental.Api.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{447EC4BD-8495-455F-9E97-2A18A87DBAD5}|NewCarRental.Api\\NewCarRental.Api.csproj|solutionrelative:newcarrental.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A763779-3EBD-4DDD-9840-960851BA56CA}|NewCarRental.Application\\NewCarRental.Application.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.application\\features\\categories\\queries\\getallcategories\\getallcategorieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A763779-3EBD-4DDD-9840-960851BA56CA}|NewCarRental.Application\\NewCarRental.Application.csproj|solutionrelative:newcarrental.application\\features\\categories\\queries\\getallcategories\\getallcategorieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A763779-3EBD-4DDD-9840-960851BA56CA}|NewCarRental.Application\\NewCarRental.Application.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.application\\features\\categories\\queries\\getallcategories\\getallcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A763779-3EBD-4DDD-9840-960851BA56CA}|NewCarRental.Application\\NewCarRental.Application.csproj|solutionrelative:newcarrental.application\\features\\categories\\queries\\getallcategories\\getallcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A763779-3EBD-4DDD-9840-960851BA56CA}|NewCarRental.Application\\NewCarRental.Application.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.application\\newcarrental.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6A763779-3EBD-4DDD-9840-960851BA56CA}|NewCarRental.Application\\NewCarRental.Application.csproj|solutionrelative:newcarrental.application\\newcarrental.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A763779-3EBD-4DDD-9840-960851BA56CA}|NewCarRental.Application\\NewCarRental.Application.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.application\\interfaces\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A763779-3EBD-4DDD-9840-960851BA56CA}|NewCarRental.Application\\NewCarRental.Application.csproj|solutionrelative:newcarrental.application\\interfaces\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CC26A0-E9FD-4A27-87BA-A303EFCADFE2}|NewCarRental.Infrastructure\\NewCarRental.Infrastructure.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CC26A0-E9FD-4A27-87BA-A303EFCADFE2}|NewCarRental.Infrastructure\\NewCarRental.Infrastructure.csproj|solutionrelative:newcarrental.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447EC4BD-8495-455F-9E97-2A18A87DBAD5}|NewCarRental.Api\\NewCarRental.Api.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{447EC4BD-8495-455F-9E97-2A18A87DBAD5}|NewCarRental.Api\\NewCarRental.Api.csproj|solutionrelative:newcarrental.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CC26A0-E9FD-4A27-87BA-A303EFCADFE2}|NewCarRental.Infrastructure\\NewCarRental.Infrastructure.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.infrastructure\\contexts\\carrentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CC26A0-E9FD-4A27-87BA-A303EFCADFE2}|NewCarRental.Infrastructure\\NewCarRental.Infrastructure.csproj|solutionrelative:newcarrental.infrastructure\\contexts\\carrentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447EC4BD-8495-455F-9E97-2A18A87DBAD5}|NewCarRental.Api\\NewCarRental.Api.csproj|d:\\workspace\\asp.net project\\web_api\\newcarrentalapi\\newcarrental.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{447EC4BD-8495-455F-9E97-2A18A87DBAD5}|NewCarRental.Api\\NewCarRental.Api.csproj|solutionrelative:newcarrental.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllCategoriesHandler.cs",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Application\\Features\\Categories\\Queries\\GetAllCategories\\GetAllCategoriesHandler.cs",
+              "RelativeDocumentMoniker": "NewCarRental.Application\\Features\\Categories\\Queries\\GetAllCategories\\GetAllCategoriesHandler.cs",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Application\\Features\\Categories\\Queries\\GetAllCategories\\GetAllCategoriesHandler.cs",
+              "RelativeToolTip": "NewCarRental.Application\\Features\\Categories\\Queries\\GetAllCategories\\GetAllCategoriesHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:08:15.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllCategoriesQuery.cs",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Application\\Features\\Categories\\Queries\\GetAllCategories\\GetAllCategoriesQuery.cs",
+              "RelativeDocumentMoniker": "NewCarRental.Application\\Features\\Categories\\Queries\\GetAllCategories\\GetAllCategoriesQuery.cs",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Application\\Features\\Categories\\Queries\\GetAllCategories\\GetAllCategoriesQuery.cs",
+              "RelativeToolTip": "NewCarRental.Application\\Features\\Categories\\Queries\\GetAllCategories\\GetAllCategoriesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:07:29.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewCarRental.Application",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Application\\NewCarRental.Application.csproj",
+              "RelativeDocumentMoniker": "NewCarRental.Application\\NewCarRental.Application.csproj",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Application\\NewCarRental.Application.csproj",
+              "RelativeToolTip": "NewCarRental.Application\\NewCarRental.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T07:05:28.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "NewCarRental.Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "NewCarRental.Application\\Interfaces\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:46:03.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "NewCarRental.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "NewCarRental.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T03:54:55.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Api\\Program.cs",
+              "RelativeDocumentMoniker": "NewCarRental.Api\\Program.cs",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Api\\Program.cs",
+              "RelativeToolTip": "NewCarRental.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T08:37:17.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Api\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "NewCarRental.Api\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Api\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "NewCarRental.Api\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T09:31:12.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarRentalDbContext.cs",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Infrastructure\\Contexts\\CarRentalDbContext.cs",
+              "RelativeDocumentMoniker": "NewCarRental.Infrastructure\\Contexts\\CarRentalDbContext.cs",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Infrastructure\\Contexts\\CarRentalDbContext.cs",
+              "RelativeToolTip": "NewCarRental.Infrastructure\\Contexts\\CarRentalDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:46:27.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "NewCarRental.Api\\appsettings.json",
+              "ToolTip": "D:\\WORKSPACE\\ASP.NET Project\\WEB_API\\NewCarRentalAPI\\NewCarRental.Api\\appsettings.json",
+              "RelativeToolTip": "NewCarRental.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T08:35:31.991Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 226,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

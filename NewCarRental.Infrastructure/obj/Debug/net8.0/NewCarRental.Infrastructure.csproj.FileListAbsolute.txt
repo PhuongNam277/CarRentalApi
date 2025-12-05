@@ -1,0 +1,17 @@
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\bin\Debug\net8.0\NewCarRental.Infrastructure.deps.json
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\bin\Debug\net8.0\NewCarRental.Infrastructure.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\bin\Debug\net8.0\NewCarRental.Infrastructure.pdb
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\bin\Debug\net8.0\NewCarRental.Application.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\bin\Debug\net8.0\NewCarRental.Domain.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\bin\Debug\net8.0\NewCarRental.Application.pdb
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\bin\Debug\net8.0\NewCarRental.Domain.pdb
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.csproj.AssemblyReference.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.AssemblyInfoInputs.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.AssemblyInfo.cs
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRe.5B489C4C.Up2Date
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\refint\NewCarRental.Infrastructure.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.pdb
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\ref\NewCarRental.Infrastructure.dll
