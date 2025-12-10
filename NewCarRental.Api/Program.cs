@@ -1,10 +1,50 @@
+﻿using System;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using NewCarRental.Application.Interfaces.Authentication;
 using NewCarRental.Application.Interfaces.Repositories;
+using NewCarRental.Application.Mappings;
+using NewCarRental.Domain.Settings;
+using NewCarRental.Infrastructure.Authentication;
 using NewCarRental.Infrastructure.Contexts;
 using NewCarRental.Infrastructure.Repositories;
-using NewCarRental.Application.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Get appsettings config
+var jwtSettings = new JwtSettings();
+builder.Configuration.Bind(JwtSettings.SectionName, jwtSettings);
+
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection(JwtSettings.SectionName));
+
+// DK Jwt Generator
+builder.Services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
+
+// Cau hinh Authentication
+builder.Services.AddAuthentication(defaultScheme: JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = jwtSettings.Issuer,
+            ValidAudience = jwtSettings.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(jwtSettings.Secret)
+            )
+        }
+    );
+
+// DK Hash Password Service
+builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
+
+// DK UserRepo
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // Add services to the container.
 
@@ -21,8 +61,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<CarRentalDbContext>(options =>
 options.UseSqlServer(connectionString));
 
-// DK AutoMapper
-builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 // DK MediatR
 builder.Services.AddMediatR(cfg =>
@@ -39,6 +78,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

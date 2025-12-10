@@ -1,6 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using NewCarRental.Application.Features.Categories.Commands.CreateCategory;
+using NewCarRental.Application.Features.Categories.Commands.DeleteCategory;
+using NewCarRental.Application.Features.Categories.Commands.UpdateCategory;
 using NewCarRental.Application.Features.Categories.Queries.GetAllCategories;
+using NewCarRental.Application.Features.Categories.Queries.GetCategoryById;
 
 namespace NewCarRental.Api.Controllers
 {
@@ -26,24 +30,43 @@ namespace NewCarRental.Api.Controllers
             return Ok(result);
         }
 
-        //[HttpGet("{id}")]
-        //public async Task<IActionResult> GetCategoryById(int id)
-        //{
-        //    var result = await _categoryService.GetCategoryByIdAsync(id);
-        //    if (result == null)
-        //    {
-        //        _logger.LogWarning("Category với ID {CategoryID} không tìm thấy", id);
-        //        return NotFound();
-        //    }
-        //    return Ok(result);
-        //}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetCategoryById(int id)
+        {
+            var query = new GetCategoryByIdQuery(id);
+            var result = await _mediator.Send(query);
+            if (result == null)
+            {
+                return NotFound();
+            }
+            return Ok(result);
+        }
 
-        //[HttpPost]
-        //public async Task<IActionResult> AddNewCategoryAsync(CategoryCreateDto categoryCreateDto)
-        //{
-        //    var result = await _categoryService.AddCategoryAsync(categoryCreateDto);
-        //    if (result == null) return BadRequest();
-        //    return CreatedAtAction(nameof(GetCategoryById), new { id = result.CategoryId }, result);
-        //}
+        [HttpPost]
+        public async Task<IActionResult> AddNewCategory([FromBody] CreateCategoryCommand command)
+        {
+            var categoryId = await _mediator.Send(command);
+            if (categoryId == 0) { return BadRequest(); }
+            return CreatedAtAction(nameof(GetCategoryById), new { id = categoryId }, categoryId);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateCategory(int id, [FromBody] UpdateCategoryCommand command)
+        {
+            if(id != command.Id)
+            {
+                return BadRequest($"ID trong URL ({id}) phải khớp với ID trong body ({command.Id})");
+            }
+            var result = await _mediator.Send(command);
+            return NoContent();
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteCategoryAsync([FromBody] DeleteCategoryCommand command)
+        {
+            var result = await _mediator.Send(command);
+            if(!result) { return NotFound(); }
+            return NoContent();
+        }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using NewCarRental.Application.Dtos.Categories;
+using NewCarRental.Application.Dtos.Users;
+using NewCarRental.Application.Features.Categories.Commands.CreateCategory;
 using NewCarRental.Domain.Entities;
 
 namespace NewCarRental.Application.Mappings
@@ -10,6 +12,10 @@ namespace NewCarRental.Application.Mappings
         {
             CreateMap<Category, CategoryDetailDto>().ReverseMap();
             CreateMap<CategoryCreateDto, Category>().ReverseMap();
+            //CreateMap<CreateCategoryCommand, Category>();
+
+            // User
+            CreateMap<User, UserDetailDto>().ReverseMap();
         }
     }
 }

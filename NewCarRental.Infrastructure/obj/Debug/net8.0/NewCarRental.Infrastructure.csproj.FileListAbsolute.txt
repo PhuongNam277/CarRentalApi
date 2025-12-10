@@ -10,6 +10,7 @@ D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.AssemblyInfoInputs.cache
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.AssemblyInfo.cs
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.sourcelink.json
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRe.5B489C4C.Up2Date
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\NewCarRental.Infrastructure.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Infrastructure\obj\Debug\net8.0\refint\NewCarRental.Infrastructure.dll

@@ -11,7 +11,7 @@ namespace NewCarRental.Application.Dtos.Categories
 
         [Required(ErrorMessage = "Loại phương tiện không được để trống"), MaxLength(20)]
         public string VehicleType { get; set; } = string.Empty;
-        public int? SortOrder { get; set; } = 0;
+        public int SortOrder { get; set; } = 0;
         public int? ParentCategoryId { get; set; } = null;
         public string? Slug { get; set; }
 

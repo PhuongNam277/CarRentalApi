@@ -10,6 +10,8 @@ D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Azure.Core.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Azure.Identity.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\MediatR.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
@@ -71,6 +73,7 @@ D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\NewCarRental.Api.csproj.CoreCompileInputs.cache
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\NewCarRental.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\NewCarRental.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\NewCarRental.Api.sourcelink.json
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -86,5 +89,14 @@ D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\NewCarRental.Api.pdb
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\NewCarRental.Api.genruntimeconfig.cache
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\obj\Debug\net8.0\ref\NewCarRental.Api.dll
-D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\MediatR.dll
-D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\NewCarRental.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll

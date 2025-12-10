@@ -1,10 +1,12 @@
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\bin\Debug\net8.0\NewCarRental.Domain.deps.json
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\bin\Debug\net8.0\NewCarRental.Domain.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\bin\Debug\net8.0\NewCarRental.Domain.pdb
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.csproj.AssemblyReference.cache
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.AssemblyInfoInputs.cache
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.AssemblyInfo.cs
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.sourcelink.json
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\refint\NewCarRental.Domain.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.pdb
