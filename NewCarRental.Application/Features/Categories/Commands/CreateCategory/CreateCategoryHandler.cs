@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
+using NewCarRental.Application.Exceptions;
 using NewCarRental.Application.Interfaces.Repositories;
 using NewCarRental.Domain.Entities;
 
@@ -31,7 +32,8 @@ namespace NewCarRental.Application.Features.Categories.Commands.CreateCategory
                 Slug = request.Slug,
                 IsActive = request.IsActive
             };
-            await _categoryRepository.AddCategoryAsync(newCategory);
+            var result = await _categoryRepository.AddCategoryAsync(newCategory);
+            if (result == null) throw new ValidationException("Lỗi trong quá trình thêm mới Category");
             return newCategory.CategoryId;
         }
     }

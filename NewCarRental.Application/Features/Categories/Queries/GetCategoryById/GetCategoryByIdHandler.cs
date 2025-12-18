@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
 using NewCarRental.Application.Dtos.Categories;
+using NewCarRental.Application.Exceptions;
 using NewCarRental.Application.Interfaces.Repositories;
 
 namespace NewCarRental.Application.Features.Categories.Queries.GetCategoryById
@@ -23,6 +24,7 @@ namespace NewCarRental.Application.Features.Categories.Queries.GetCategoryById
         public async Task<CategoryDetailDto> Handle(GetCategoryByIdQuery request, CancellationToken cancellationToken)
         {
             var category = await _categoryRepository.GetCategoryByIdAsync(request.Id);
+            if (category == null) throw new NotFoundException("Category", request.Id);
             var data = _mapper.Map<CategoryDetailDto>(category);
             return data;
         }

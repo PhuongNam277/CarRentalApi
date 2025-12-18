@@ -10,6 +10,9 @@ using NewCarRental.Domain.Settings;
 using NewCarRental.Infrastructure.Authentication;
 using NewCarRental.Infrastructure.Contexts;
 using NewCarRental.Infrastructure.Repositories;
+using Microsoft.OpenApi.Models;
+using NewCarRental.Application.DI;
+using NewCarRental.Api.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -46,15 +49,53 @@ builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 // DK UserRepo
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-// Add services to the container.
+// DK RoleRepo
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 
+// Add AddApplication
+builder.Services.AddApplication();
+
+// Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "My Secure API", Version = "v1" });
+
+    // Config JWT Security
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Vui lòng nhập Token JWT: ",
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+}); 
+
 
 // DK Category Repository
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
+// DK RefreshToken Repository
+builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();  
 
 // DK DbContext
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -68,6 +109,7 @@ builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(MappingProfile).Assembly));
 
 var app = builder.Build();
+app.UseMiddleware<ErrorHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

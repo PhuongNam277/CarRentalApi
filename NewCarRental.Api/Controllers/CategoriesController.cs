@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NewCarRental.Application.Features.Categories.Commands.CreateCategory;
 using NewCarRental.Application.Features.Categories.Commands.DeleteCategory;
@@ -19,14 +20,12 @@ namespace NewCarRental.Api.Controllers
             _mediator = mediator;
             _logger = logger;
         }
+
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()
         {
-            // B1: Tạo yêu cầu
             var query = new GetAllCategoriesQuery();
-            // B2: Gửi đi
             var result = await _mediator.Send(query);
-            // B3: Trả về kết quả
             return Ok(result);
         }
 
@@ -35,10 +34,6 @@ namespace NewCarRental.Api.Controllers
         {
             var query = new GetCategoryByIdQuery(id);
             var result = await _mediator.Send(query);
-            if (result == null)
-            {
-                return NotFound();
-            }
             return Ok(result);
         }
 
@@ -46,17 +41,12 @@ namespace NewCarRental.Api.Controllers
         public async Task<IActionResult> AddNewCategory([FromBody] CreateCategoryCommand command)
         {
             var categoryId = await _mediator.Send(command);
-            if (categoryId == 0) { return BadRequest(); }
             return CreatedAtAction(nameof(GetCategoryById), new { id = categoryId }, categoryId);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCategory(int id, [FromBody] UpdateCategoryCommand command)
         {
-            if(id != command.Id)
-            {
-                return BadRequest($"ID trong URL ({id}) phải khớp với ID trong body ({command.Id})");
-            }
             var result = await _mediator.Send(command);
             return NoContent();
         }
@@ -65,7 +55,6 @@ namespace NewCarRental.Api.Controllers
         public async Task<IActionResult> DeleteCategoryAsync([FromBody] DeleteCategoryCommand command)
         {
             var result = await _mediator.Send(command);
-            if(!result) { return NotFound(); }
             return NoContent();
         }
     }

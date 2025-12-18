@@ -12,5 +12,6 @@ namespace NewCarRental.Application.Interfaces.Repositories
         Task<List<User>> GetAllUsersAsync();
         Task<User?> AddUserAsync(User user);
         Task<User?> GetUserByEmailAsync(string email);
+        Task<User?> GetUserByIdAsync(int userId);
     }
 }

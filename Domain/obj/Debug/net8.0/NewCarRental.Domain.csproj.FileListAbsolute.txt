@@ -11,3 +11,5 @@ D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\New
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\refint\NewCarRental.Domain.dll
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.pdb
 D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\ref\NewCarRental.Domain.dll
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\bin\Debug\net8.0\NewCarRental.Domain.runtimeconfig.json
+D:\WORKSPACE\ASP.NET Project\WEB_API\NewCarRentalAPI\Domain\obj\Debug\net8.0\NewCarRental.Domain.genruntimeconfig.cache

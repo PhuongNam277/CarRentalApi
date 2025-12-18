@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
+using NewCarRental.Application.Exceptions;
 using NewCarRental.Application.Interfaces.Repositories;
 
 namespace NewCarRental.Application.Features.Categories.Commands.DeleteCategory
@@ -22,6 +23,7 @@ namespace NewCarRental.Application.Features.Categories.Commands.DeleteCategory
         public async Task<bool> Handle(DeleteCategoryCommand request, CancellationToken cancellationToken)
         {
             var res = await _repo.DeleteCategoryAsync(request.Id);
+            if (!res) throw new NotFoundException("Category", request.Id);
             return res;
         }
     }

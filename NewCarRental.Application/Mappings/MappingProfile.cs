@@ -12,7 +12,6 @@ namespace NewCarRental.Application.Mappings
         {
             CreateMap<Category, CategoryDetailDto>().ReverseMap();
             CreateMap<CategoryCreateDto, Category>().ReverseMap();
-            //CreateMap<CreateCategoryCommand, Category>();
 
             // User
             CreateMap<User, UserDetailDto>().ReverseMap();

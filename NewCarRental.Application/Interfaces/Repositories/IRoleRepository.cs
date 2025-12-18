@@ -10,5 +10,6 @@ namespace NewCarRental.Application.Interfaces.Repositories
     public interface IRoleRepository
     {
         Task<string> GetRoleNameByIdAsync(int? roleId);
+        Task<string> GetRoleNameByUserIdAsync(int userId);
     }
 }

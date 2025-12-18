@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using NewCarRental.Api.Contracts;
+using NewCarRental.Application.Authentication.Commands.Login;
+using NewCarRental.Application.Authentication.Commands.Logout;
+using NewCarRental.Application.Authentication.Commands.RefreshToken;
 using NewCarRental.Application.Authentication.Commands.Register;
-using NewCarRental.Application.Authentication.Queries.Login;
 
 namespace NewCarRental.Api.Controllers
 {
@@ -21,11 +23,11 @@ namespace NewCarRental.Api.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginRequest request)
         {
-            var query = new LoginQuery(request.Email, request.Password);
+            var query = new LoginCommand(request.Email, request.Password);
             try
             {
                 var token = await _mediator.Send(query);
-                return Ok(new { Token = token });
+                return Ok(new { Token = token, Message = "Login successfully!" });
             }
             catch (Exception ex)
             {
@@ -55,5 +57,30 @@ namespace NewCarRental.Api.Controllers
                 return BadRequest(new {Error = ex.Message});
             }
         }
+
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenRequest request)
+        {
+            var command = new RefreshTokenCommand(request.RefreshToken);
+
+            try
+            {
+                var result = await _mediator.Send(command);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Unauthorized(new { Error = ex.Message });
+            }
+        }
+
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout([FromBody] LogoutRequest request)
+        {
+            var command = new LogoutCommand(request.RefreshToken);
+            await _mediator.Send(command);
+            return Ok(new {Message = "Logout successfully!"});
+        }
+
     }
 }

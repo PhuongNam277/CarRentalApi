@@ -10,5 +10,6 @@ namespace NewCarRental.Application.Interfaces.Authentication
     public interface IJwtTokenGenerator
     {
         string GenerateToken(User user, string roleName);
+        string GenerateRefreshToken();
     }
 }

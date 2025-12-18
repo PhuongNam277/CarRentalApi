@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
 using NewCarRental.Application.Dtos.Categories;
+using NewCarRental.Application.Exceptions;
 using NewCarRental.Application.Interfaces.Repositories;
 using NewCarRental.Domain.Entities;
 
@@ -22,13 +23,15 @@ namespace NewCarRental.Application.Features.Categories.Commands.UpdateCategory
         }
         public async Task<Unit> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
         {
-            
             //_mapper.Map<CategoryCreateDto>(request);
             var oldCategory = await _categoryRepository.GetCategoryByIdAsync(request.Id);
             if (oldCategory == null)
             {
-                throw new Exception();
+                throw new ValidationException($"Không tìm thấy Category với id = {request.Id}");
             }
+
+            var parentCategoryId = await _categoryRepository.GetCategoryByIdAsync((int)request.ParentCategoryId!);
+            if (parentCategoryId == null) throw new ValidationException("ParentCategoryId không có trong hệ thống");
 
             oldCategory.CategoryName = request.CategoryName;
             oldCategory.ParentCategoryId = request.ParentCategoryId;

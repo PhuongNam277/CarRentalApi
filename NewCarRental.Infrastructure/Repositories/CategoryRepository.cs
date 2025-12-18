@@ -23,6 +23,7 @@ namespace NewCarRental.Infrastructure.Repositories
         public async Task<Category?> GetCategoryByIdAsync(int id)
         {
             var category = await _context.Categories.FindAsync(id);
+            if(category == null) { return null; }
             return category;
         }
 

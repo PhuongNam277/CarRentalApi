@@ -37,5 +37,12 @@ namespace NewCarRental.Infrastructure.Repositories
             if (user == null) { return null; }
             return user;
         }
+
+        public async Task<User?> GetUserByIdAsync(int userId)
+        {
+            var user = await _context.Users.FindAsync(userId);
+            if (user == null) { return null; }
+            return user;
+        }
     }
 }

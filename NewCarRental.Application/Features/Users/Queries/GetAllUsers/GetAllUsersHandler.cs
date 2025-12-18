@@ -5,12 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using NewCarRental.Application.Dtos.Users;
 using NewCarRental.Application.Features.Users.Queries.GetAllUser;
 using NewCarRental.Application.Interfaces.Repositories;
 
 namespace NewCarRental.Application.Features.Users.Queries.GetAllUsers
 {
+    [Authorize]
     public class GetAllUsersHandler : IRequestHandler<GetAllUsersQuery, List<UserDetailDto>>
     {
         private readonly IUserRepository _userRepository;
